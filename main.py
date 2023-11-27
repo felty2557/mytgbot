@@ -5,7 +5,7 @@ from mem_generator import MemeGenerator
 import traceback
 import io
 
-bot = Bot(token="6498827396:AAF4nq7tpxlSBXg5Y5pTDMkc41ftTle6xCU")
+bot = Bot(token="")
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'], )
