@@ -2,10 +2,11 @@ from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 from mem_generator import MemeGenerator
+from config import token
 import traceback
 import io
 
-bot = Bot(token="")
+bot = Bot(token=token)
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'], )
